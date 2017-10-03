@@ -34,7 +34,7 @@ sed -i s"|H_NAME|$H_NAME|"g $ktr
 sed -i s"|ORACLE|$OLTPDB|"g $ktr
 sed -i s"|VERTICA|$EDWDB|"g $ktr
 sed -i s"|JNDI_OLTP|$OLTP_JNDI|"g $ktr
-sed -i s"|JNDI_VERTICA|$EDW_JNDI|"g $ktr
+sed -i s"|JNDI_EDW|$EDW_JNDI|"g $ktr
 sed -i s"|OLTP_SCHEME|$OLTP_SCHEME|"g $ktr
 sed -i s"|OLTP_TABLE|$OLTP_TABLE|"g $ktr
 sed -i s"|OLTP_FIELD|$OLTP_FIELD|"g $ktr
