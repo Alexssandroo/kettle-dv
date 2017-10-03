@@ -11,7 +11,7 @@ echo "    Dentro do banco destino devem ser criados os schemas : "
 echo "        dv"
 echo "        dm"
 echo "        log(opcional)"
-echo "    O resultado desse script é uma transformação de hub e um script que deve ser executado no banco antes do KTR ser chamado no Kettle."
+echo "    O resultado desse script é uma transformação de hub e um script que deve ser executado no banco ANTES do KTR ser chamado no Kettle."
 echo "-------------------------------------------------------"
 read -p "Banco de Origem : " OLTPDB  
 read -p "Banco de Destino : " EDWDB
@@ -40,6 +40,7 @@ sed -i s"|OLTP_TABLE|$OLTP_TABLE|"g $ktr
 sed -i s"|OLTP_FIELD|$OLTP_FIELD|"g $ktr
 sed -i s"|DTA|$DTA|"g $ktr
 sed -i s"|USU_NAME|$USU_NAME|"g $ktr
+sed -i s"|EDWDB|$EDWDB|"g $ktr
 
 sql1="CREATE TABLE dv.H_"
 sql2=" ( "
