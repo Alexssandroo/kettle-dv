@@ -54,4 +54,5 @@ echo $insert
 echo ""
 echo "Atenção, esse script é apenas um template, se possível encaminhe ao DBA para análise e customização."
 echo "A transformação $ktr foi criada com sucesso."
-echo "A transformação possui uma configuração de logs com as nomeclaturas de tabela padrão que devem ser incluidas dentro do schema log(caso deseje), caso não tenha interesse em criar logs da transformação basta  apagar as variaveis dentro nas configurações da transformação."
+echo "A transformação possui uma configuração de logs com as nomeclaturas de tabela padrão que devem ser incluidas dentro do schema log(caso deseje), "
+echo "caso não tenha interesse em criar logs da transformação basta  apagar as variaveis dentro nas configurações da transformação."
