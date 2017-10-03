@@ -511,7 +511,7 @@ O HUB H_NAME EM EDWDB.</extended_description>
 EM : DTA
 ESSA TRANSFORMAÇÃO COLETA DADOS DA 
 TABELA OLTP_TABLE EM SISTEMA E GERA 
-O HUB H_NAME EM EDWDB.</note>
+O HUB H_NAME EM EDWDB/JNDI_EDW.</note>
       <xloc>24</xloc>
       <yloc>24</yloc>
       <width>333</width>
@@ -537,7 +537,7 @@ O HUB H_NAME EM EDWDB.</note>
     <server />
     <type>VERTICA</type>
     <access>JNDI</access>
-    <database>JNDI_VERTICA</database>
+    <database>JNDI_EDW</database>
     <port>1521</port>
     <username />
     <password>Encrypted </password>
