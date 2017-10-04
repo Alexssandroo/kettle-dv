@@ -891,7 +891,7 @@ order by OLTP_FIELD</sql>
       <schema_name />
     </partitioning>
     <connection>OLTP</connection>
-    <sql>SELECT OLTP_FIELD
+    <sql>SELECT DISTINCT OLTP_FIELD
 FROM OLTP_SCHEME.OLTP_TABLE
 ORDER BY OLTP_FIELD</sql>
     <limit>0</limit>
